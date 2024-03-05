@@ -54,7 +54,7 @@ app.get('/datos-json', (req, res) => {
 
 // Start the server using your private ip or localhost
 app.listen(port, function () {
-    console.log(`Servidor escuchando en http://10.20.7.200:${port}/datos`);
+    console.log(`Servidor escuchando en http://localhost:${port}/datos`);
 });
 
 
