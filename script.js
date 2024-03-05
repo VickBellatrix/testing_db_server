@@ -24,6 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     };
 
-    xhr.open('GET', 'http://10.20.7.200:${port}/datos-json', true);
+    xhr.open('GET', 'http://localhost:${port}/datos-json', true);
     xhr.send();
 });
